@@ -124,37 +124,6 @@ jupyter notebook
 
 ---
 
-## 📁 Project Structure
-
-```
-trader-behavior-analysis/
-│
-├── 📓 TASK.ipynb                 # Main analysis notebook
-├── 📄 README.md                  # Project documentation
-├── 📋 requirements.txt           # Python dependencies
-│
-├── 📂 data/                      # Data directory
-│   ├── raw/                      # Raw Hyperliquid trade data
-│   ├── processed/                # Cleaned and merged datasets
-│   └── sentiment/                # Fear & Greed Index data
-│
-├── 📂 notebooks/                 # Additional analysis notebooks
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   └── 03_modeling.ipynb
-│
-├── 📂 src/                       # Source code modules
-│   ├── data_processing.py
-│   ├── sentiment_analysis.py
-│   └── visualization.py
-│
-└── 📂 output/                    # Generated visualizations & reports
-    ├── figures/
-    └── reports/
-```
-
----
-
 ## 🛠️ Tech Stack
 
 <div align="center">
